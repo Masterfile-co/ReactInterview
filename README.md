@@ -1,8 +1,14 @@
 # Getting Started with Masterfile
 
-This interview problem set has all the coding environment and boilerplate ready for you. Once complete, please create a zip folder containing all files except for `node_modules` and email to `garrett@masterfile.co and cc: joshua@masterfile.co` with `Frontend Interview - Your Name` in the subject line.
+This interview problem set has all the coding environment and boilerplate ready for you. We will begin with a short (~15-20 minute) meeting to answer any questions before you start. Please treat this as if it was the begining of a new assignment and come prepared with any clarifications you will need to complete the assignment. Sign up for a timeslot here:
 
-The boilerplate is setup to use the ff:
+
+https://calendly.com/garrett-masterfile/interview
+
+
+Once complete, please create a zip folder containing all files except for `node_modules` and email to `garrett@masterfile.co and cc: joshua@masterfile.co` with `Frontend Interview - Your Name` in the subject line.
+
+The boilerplate is setup to use the following:
 
 - yarn
 - react
@@ -36,7 +42,7 @@ Endpoint: https://api.spacex.land/graphql/
 
 5. Support up to 3 pages only
 
-6. Add functionality to sort by the ff properties:
+6. Add functionality to sort by the following properties:
 
 - id
 - mission name
@@ -47,7 +53,7 @@ Endpoint: https://api.spacex.land/graphql/
 
   Check this [link](https://github.com/SpaceXLand/api/blob/master/src/utils/filters/sort.ts) as your reference on what `sort` query values are accepted by the api.
 
-7. Add functionality to arange the sorting by the ff order:
+7. Add functionality to arange the sorting by the follow orders:
 
 - ascending
 - descending
@@ -56,7 +62,7 @@ Endpoint: https://api.spacex.land/graphql/
 
 9. The list should update every time the sort , order and page reducer state updates.
 
-10. The ff are the default states on the redux, you're free to add the other necessary default states and additional states you may need:
+10. The following are the default states on the redux, you're free to add the other necessary default states and additional states you may need:
 
 ```
 sort = 'ID'
@@ -70,7 +76,7 @@ page= 1
 - Do not overthink about the result, it is as straight forward as it is.
 - Do not worry about the styling, we grade you base on the implementation not the presentation, just in case you need some small modification, use tailwindcss that was already setup.
 
-#### Sample output with ff states:
+#### Sample output with following states:
 
 - sortBy: id, order: acending, pageNumber: 3
 
